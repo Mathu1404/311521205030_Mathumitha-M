@@ -1,0 +1,125 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 90%;
+    text-align: center;
+}
+#header {
+    background-color: #f3f2ed;
+}
+#header h1 {
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    padding-left: 10px;
+}
+#container {
+    height: auto;
+    width: 700px;
+    margin: 0 auto;
+}
+#wrapper {
+    float: right;
+    width: 500px;
+    margin: 0 auto;
+}
+#wrapper p {
+    line-height: 1.5;
+    text-align: justify;
+}
+#nav {
+    float: left;
+    height: 500px;
+    width: 180px;
+    background-color: #96cbca;
+}
+#nav ul {
+    margin-left: 10px;
+    list-style-type: disc;
+    text-align: left;
+}
+#nav li {
+    padding-top: 5px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+#footer {
+    clear: both;
+    width: 100%;
+    background-color: #5dd1a3;
+}
+#footer p {
+    margin: 0;
+    padding: 5px 10px;
+    text-align: center;
+}
+a {
+    padding: 5px;
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    color: #2495e0;
+}
+p {
+    margin: 0 10px 10px;
+}
+#header1 {
+    text-align: center;
+    font-size: 30px;
+}
+#center {
+    height: auto;
+    width: 300px;
+    margin-left: 100px;
+    margin-bottom: 20px; /* Adds space between the form and the table */
+}
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+label, input, button, select, textarea {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+input, select, textarea {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.error {
+    color: red;
+    text-align: center;
+}
+.success {
+    color: green;
+    text-align: center;
+}
+.record {
+    list-style-type: none; /* Removes bullet points */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.record li {
+    margin-bottom: 20px; /* Adds equal margin between each item */
+    padding: 10px; /* Optional: Adds some padding around the text */
+    border: 1px solid #000; /* Optional: Adds a border to each item */
+    width: 50%; /* Adjusts the width of each item */
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Adds space between the table and the search button */
+}
+table td, table th {
+    border: 2px solid #4f4b4b;
+    padding: 5px;
+}
